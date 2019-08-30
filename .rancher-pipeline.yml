@@ -1,0 +1,8 @@
+stages:
+- name: build
+  steps:
+  - runScriptConfig:
+      image: busybox
+      shellScript: ls
+timeout: 60
+notification: {}
